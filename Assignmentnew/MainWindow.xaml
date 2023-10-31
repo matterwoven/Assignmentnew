@@ -1,0 +1,33 @@
+﻿<Window x:Class="Assignmentnew.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignmentnew"
+        Title="MainWindow" Height="500" Width="500">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Rectangle HorizontalAlignment="Center" Height="512" Fill="Teal" VerticalAlignment="Center" Width="500"/>
+        <Rectangle HorizontalAlignment="Center" Height="437" Fill="LightBlue" Stroke="Teal" VerticalAlignment="Center" Width="410"/>
+        <Rectangle HorizontalAlignment="Center" Height="17" Margin="0,335,0,0" Fill="LightGray" Stroke="Black" VerticalAlignment="Top" Width="104"/>
+        <Rectangle HorizontalAlignment="Center" Height="17" Margin="0,198,0,0" Fill="LightGray" Stroke="Black" VerticalAlignment="Top" Width="104"/>
+        <Rectangle HorizontalAlignment="Center" Height="17" Margin="0,67,0,0" Fill="LightGray" Stroke="Black" VerticalAlignment="Top" Width="104"/>
+        <Label Content="Add or subtract" HorizontalAlignment="Center" Margin="0,61,0,0" VerticalAlignment="Top" Width="92"/>
+        <Label Content="Multiply or divide" HorizontalAlignment="Center" Margin="0,192,0,0" VerticalAlignment="Top" Width="104"/>
+        <Label Content="Average of results" HorizontalAlignment="Center" Margin="0,329,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="PosNeg_Number1" HorizontalAlignment="Left" Margin="74,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="PosNeg_Number2" HorizontalAlignment="Center" Margin="0,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" TextChanged="PosNeg_Number2_TextChanged"/>
+        <TextBox x:Name="PosNeg_Result" HorizontalAlignment="Left" Margin="330,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" TextChanged="PosNeg_Result_TextChanged"/>
+        <TextBox x:Name="MultDiv_Number1" HorizontalAlignment="Left" Margin="74,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="MultDiv_Number2" HorizontalAlignment="Center" Margin="0,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
+        <TextBox x:Name="MultDiv_Result" HorizontalAlignment="Left" Margin="330,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
+        <TextBox x:Name="AvgRes_Result" HorizontalAlignment="Left" Margin="74,382,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" Height="56"/>
+        <Button x:Name="Add_btn" Content="Add" HorizontalAlignment="Left" Margin="96,141,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="Button_Click"/>
+        <Button x:Name="Subtract_btn" Content="Subtract" HorizontalAlignment="Left" Margin="258,141,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="Button_Click"/>
+        <Button x:Name="Divide_btn" Content="Divide" HorizontalAlignment="Left" Margin="258,272,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="Button_Click"/>
+        <Button x:Name="Multiply_btn" Content="Multiply" HorizontalAlignment="Left" Margin="96,272,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="Button_Click"/>
+        <Button x:Name="Average_of_results_btn" Content="Average of Results" HorizontalAlignment="Left" Margin="307,382,0,0" VerticalAlignment="Top" Width="115" Height="56" Click="Button_Click"/>
+
+
+    </Grid>
+</Window>
+
