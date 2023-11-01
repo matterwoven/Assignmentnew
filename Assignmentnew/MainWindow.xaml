@@ -1,4 +1,4 @@
-﻿<Window x:Class="Assignmentnew.MainWindow"
+<Window x:Class="Assignmentnew.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -18,14 +18,14 @@
         <TextBox x:Name="PosNeg_Number2" HorizontalAlignment="Center" Margin="0,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" TextChanged="PosNeg_Number2_TextChanged"/>
         <TextBox x:Name="PosNeg_Result" HorizontalAlignment="Left" Margin="330,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" TextChanged="PosNeg_Result_TextChanged"/>
         <TextBox x:Name="MultDiv_Number1" HorizontalAlignment="Left" Margin="74,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" TextChanged="TextBox_TextChanged"/>
-        <TextBox x:Name="MultDiv_Number2" HorizontalAlignment="Center" Margin="0,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
-        <TextBox x:Name="MultDiv_Result" HorizontalAlignment="Left" Margin="330,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
-        <TextBox x:Name="AvgRes_Result" HorizontalAlignment="Left" Margin="74,382,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" Height="56"/>
-        <Button x:Name="Add_btn" Content="Add" HorizontalAlignment="Left" Margin="96,141,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="Button_Click"/>
-        <Button x:Name="Subtract_btn" Content="Subtract" HorizontalAlignment="Left" Margin="258,141,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="Button_Click"/>
-        <Button x:Name="Divide_btn" Content="Divide" HorizontalAlignment="Left" Margin="258,272,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="Button_Click"/>
-        <Button x:Name="Multiply_btn" Content="Multiply" HorizontalAlignment="Left" Margin="96,272,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="Button_Click"/>
-        <Button x:Name="Average_of_results_btn" Content="Average of Results" HorizontalAlignment="Left" Margin="307,382,0,0" VerticalAlignment="Top" Width="115" Height="56" Click="Button_Click"/>
+        <TextBox x:Name="MultDiv_Number2" HorizontalAlignment="Center" Margin="0,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" TextChanged="MultDiv_Number2_TextChanged"/>
+        <TextBox x:Name="MultDiv_Result" HorizontalAlignment="Left" Margin="330,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" TextChanged="MultDiv_Result_TextChanged"/>
+        <TextBox x:Name="AvgRes_Result" HorizontalAlignment="Left" Margin="74,382,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" Height="56" TextChanged="AvgRes_Result_TextChanged"/>
+        <Button x:Name="Addbtn" Content="Add" HorizontalAlignment="Left" Margin="96,141,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="Add_btn"/>
+        <Button x:Name="Subtractbtn" Content="Subtract" HorizontalAlignment="Left" Margin="258,141,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="Subtract_btn"/>
+        <Button x:Name="Divide_btn" Content="Divide" HorizontalAlignment="Left" Margin="258,272,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="Div_btn"/>
+        <Button x:Name="Multiplybtn" Content="Multiply" HorizontalAlignment="Left" Margin="96,272,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="Mult_btn"/>
+        <Button x:Name="Average_of_results" Content="Average of Results" HorizontalAlignment="Left" Margin="307,382,0,0" VerticalAlignment="Top" Width="115" Height="56" Click="AverageOfRes_btn"/>
 
 
     </Grid>
